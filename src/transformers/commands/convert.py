@@ -162,4 +162,4 @@ class ConvertCommand(BaseTransformersCLICommand):
 
             convert_rembert_tf_checkpoint_to_pytorch(self._tf_checkpoint, self._config, self._pytorch_dump_output)
         else:
-            raise ValueError("--model_type should be selected in the list [bert, gpt, gpt2, t5, xlnet, xlm, lxmert]")
+            raise ("--model_type should be selected in the list [bert, gpt, gpt2, t5, xlnet, xlm, lxmert]")
